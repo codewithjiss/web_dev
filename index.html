@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="style.css">
+     
+ 
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Admin Dashboard Panel</title> 
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+            </div>
+
+            <span class="logo_name">Spectra Solution</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Connectors </span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name">Transformation</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-chart"></i>
+                    <span class="link-name">Destinations</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-thumbs-up"></i>
+                    <span class="link-name">Analytics</span>
+                </a></li>
+                
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+               <!-- <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>-->
+                </a>
+
+              <!--<div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>-->
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <div><i class="uil uil-bars sidebar-toggle"></i>
+            <img src="Images/logo.png" alt="logo" style="width: 250px; height: 44.18;">
+            </div>
+               <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            
+       
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Connectors</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class='bx bx-sync icon'></i>
+                        <span class="text">Connect source</span>
+                        
+                        
+                    </div>
+                    <div class="box box2">
+                        <i class='bx bxs-map icon'></i>
+                        <span class="text">Connect destination</span>
+                      
+                    </div>
+                    <div class="box box3">
+                        <i class='bx bx-transfer-alt icon'></i>
+                        <span class="text">Complete initial sync</span>
+                      
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="title">
+                    <i class="uil uil-clock-three"></i>
+                    <span class="text">Recent Activity</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="Connector">
+                        <span class="Connector Name">Connector Name</span>
+                        
+                    </div> 
+                    <div class="Time">
+                        <span class="Time">Email</span>
+
+                    </div>
+                    <div class="data joined">
+                        <span class="Data Transferred">Data Transferred</span>
+                    
+                    </div>
+                    <div class="data type">
+                        <span class="Data Type">Type</span>
+                   
+                    </div>
+                    <div class="data status">
+                        <span class="Data Status">Data Status</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
